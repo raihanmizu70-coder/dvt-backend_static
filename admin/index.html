@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DVT Admin</title>
+</head>
+<body>
+  <h2>DVT Admin Panel</h2>
+  <button onclick="load()">Load Submissions</button>
+  <pre id="out"></pre>
+
+<script>
+function load(){
+  fetch('/api/admin/submissions')
+    .then(r=>r.json())
+    .then(d=>out.innerText = JSON.stringify(d,null,2))
+}
+</script>
+</body>
+</html>
