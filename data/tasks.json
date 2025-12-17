@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "title": "CPA Signup Task",
+    "instructions": "লিংকে গিয়ে একাউন্ট খুলে স্কিনশট দিন",
+    "link": "https://cpa-lead.com/abc",
+    "amount": 3,
+    "active": true
+  }
+]
