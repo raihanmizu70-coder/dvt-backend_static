@@ -1,9 +1,8 @@
 [
   {
-    "id": 1,
-    "title": "CPA Signup Task",
-    "instructions": "লিংকে গিয়ে একাউন্ট খুলে স্কিনশট দিন",
-    "link": "https://cpa-lead.com/abc",
+    "id": "MJ-001",
+    "title": "CPA Signup",
+    "link": "https://cpa-lead.com/demo",
     "amount": 3,
     "active": true
   }
